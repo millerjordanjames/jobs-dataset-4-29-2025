@@ -1,0 +1,13 @@
+<script>
+  everything = document.getElementsByClassName("base-card__full-link");
+  
+  big_string = "";
+  console.log(everything.length + " elements \n");
+  
+  for(i = 0; i < everything.length; i++){
+    big_string += everything[i].getAttribute("href");
+    big_string += "\n";
+  }
+  console.log(big_string);
+  
+</script>
