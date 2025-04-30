@@ -1,6 +1,5 @@
 # linkedin-jobinfotool
-Tool to grab job data from the jobs page, including job title, company, location, and listing URL.
-Follow all 
+Educational tool created to grab job data from the jobs page, including job title, company, location, and listing URL.
 
 SETUP:
 1. go to: https://www.linkedin.com/jobs/
