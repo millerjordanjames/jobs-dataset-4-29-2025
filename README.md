@@ -1,11 +1,8 @@
-# jobs-dataset-4-29-2025
-Dataset of active LinkedIn job listings scraped on April 29, 2025.
+# linkedin-jobinfotool
+Tool to get a list of LinkedIn job information, including job title, company, location, and listing URL.
 
-Parameters:
-Search term: “Software Development”
-Sorted by: most relevant (as of April 29, 2025 @ ~9:30PM)
-“Most recent” returned unrelated results like “Subway Cashier”
-Location: On-site & hybrid only
-Location: Wisconsin
-Date posted: Any time
-Anti-Bias: Used Incognito Google Chrome tab
+SETUP:
+1. go to: https://www.linkedin.com/jobs/
+2. Open Inspect Element, then go to Console tab.
+3. Paste code from "scrapetool/scrapetool.html" then enter.
+4. This will log all returned text in a spreadsheet-ready format!
